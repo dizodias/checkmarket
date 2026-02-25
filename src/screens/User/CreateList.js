@@ -46,7 +46,7 @@ export default function CreateList({ route, navigation }) {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-          <Text style={styles.pageTitle}>{listToEdit ? 'Editar Lista' : 'Nova Lista'}</Text>
+          <Text style={styles.pageTitle}>{listToEdit ? 'Edit List' : 'New List'}</Text>
           <TextInput 
             style={styles.input} 
             placeholder="List Name (e.g. Weekly Groceries)" 
