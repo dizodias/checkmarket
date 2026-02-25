@@ -1,10 +1,17 @@
 {
   "name": "checkmarket",
   "version": "1.0.0",
+  "homepage": "https://dizodias.github.io/checkmarket",
   "description": "",
   "main": "App.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "predeploy": "npx expo export",
+    "deploy": "gh-pages --nojekyll -d dist"
   },
   "keywords": [],
   "author": "",
@@ -26,5 +33,8 @@
     "react-native-safe-area-context": "~5.6.0",
     "react-native-screens": "~4.16.0",
     "react-native-web": "^0.21.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
