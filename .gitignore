@@ -1,0 +1,22 @@
+# Node.js / Expo
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# macOS
+.DS_Store
+
+# iOS/Android
+ios/build/
+ios/Pods/
+android/app/build/
+android/.gradle/
+
+# Ambient variables
+.env
+.env.local
